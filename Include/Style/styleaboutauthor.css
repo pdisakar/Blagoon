@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* comment this later */
+.site-header {
+  width: 100%;
+  height: 7rem;
+}
+.about-author {
+  background-color: #f2f8fe;
+}
+.about-author-whole {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}
+.about-author-whole img {
+  width: 52.6ren;
+  height: 51.5rem;
+}
+.about-author-details {
+  margin-left: 3rem;
+  padding-top: 3rem;
+  width: 50%;
+}
+.about-author h5 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  text-transform: capitalize;
+  color: #222222;
+}
+.about-author p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #222222;
+}
+.about-author h6 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  text-transform: capitalize;
+  color: #222222;
+}
+.about-author-bio {
+  margin-top: 2.4rem;
+}
+.about-author-details-bestideas {
+  margin-bottom: 1.6rem;
+  margin-top: 2.4rem;
+}
+.about-author-socialmedia-heading {
+  margin-top: 4rem;
+}
+
+.about-author-socialmedias-icons i {
+  margin-right: 1.5rem;
+  font-size: 2.5rem;
+  margin-top: 3.2rem;
+  color: #222222;
+}
+
+.about-author-socialmedias-icons .fa-facebook:hover {
+  color: #4267b2;
+  cursor: pointer;
+}
+.about-author-socialmedias-icons .fa-twitter:hover {
+  color: #00acee;
+  cursor: pointer;
+}
+.about-author-socialmedias-icons .fa-instagram:hover {
+  color: #e1306c;
+  cursor: pointer;
+}
+.about-author-socialmedias-icons .fa-pinterest:hover {
+  color: #c8232c;
+  cursor: pointer;
+}
+
+/* templet here */
+.author-blog {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.author-blog-section {
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  /* gap: 56px 28px; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.author-blog-section article {
+  width: calc(33.33% - 2.8rem);
+  margin-right: 2.8rem;
+  margin-top: 5.8rem;
+}
+.artical-image img {
+  width: 100%;
+  height: 26.2rem;
+  border-radius: 0.8rem;
+  object-fit: cover;
+}
+.author-blog h4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  line-height: 3.7rem;
+  color: #222222;
+}
+/* .author-blog-section{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: (minmax(30rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem 1fr));
+} */
+.entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.entry-meta-photo img {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.entry-meta-date img, .entry-meta-timetoread img{
+  height: 1.1rem;
+  width: 1.2rem;
+}
+.entry-meta-photo,
+.entry-meta-name,
+.entry-meta-date {
+  margin-right: 1rem;
+}
+.entry-meta-date {
+  border-right: 1px solid #777777;
+  border-left: 1px solid #777777;
+  padding: 0px 1rem;
+}
+.entry-meta img {
+  margin-right: 0.6rem;
+}
+.author-blog-section h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  text-transform: capitalize;
+  color: #222222;
+}
+.author-blog-section .entry-meta {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  color: #777777;
+}
+.author-blog-section .entry-content {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #555555;
+}
+.author-blog-section .author-blog-travel {
+  width: fit-content;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #dff1f0;
+  border-radius: 0.3rem;
+  text-transform: capitalize;
+  color: #666666;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+}
+.author-blog-section .entry-title {
+  margin-bottom: 2.4rem;
+}
+.author-blog-section .entry-content {
+  margin-top: 1.6rem;
+}

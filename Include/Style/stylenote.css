@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+/* comment this later */
+.site-header{
+  width: 100%;
+  height: 70px;
+}
+
+.write-blog-section {
+  background: #f2f8fe;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+.write-blog-section h5,
+.how-can-you-earn h5 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 37px;
+  color: #222222;
+}
+.write-blog-section h5 {
+  margin-bottom: 40px;
+}
+
+.write-blog-section h6 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+}
+.write-blog-section p {
+  font-family: "Noto Sans";
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #555555;
+}
+.notebook-body,
+.notebook-info,
+.notebook-email {
+  margin-top: 24px;
+}
+.notebook-netemail {
+  color: #222222;
+}
+
+.go-to-main-buttom a {
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+  color: #5139f5;
+  padding: 12px 24px;
+  border: 2px #5139f5 solid;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: capitalize;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+.how-can-you-earn {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.how-can-you-earn-maincontent {
+  display: flex;
+  margin-top: 56px;
+}
+.how-can-you-earn-maincontent h4,
+.how-can-you-earn h4 {
+  font-family: "Noto Sans";
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #222222;
+  font-size: 21px;
+}
+.how-can-you-earn-maincontent p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 80px;
+  text-align: center;
+  padding: 0px 80px;
+  color: #555555;
+}
+.feq-page a {
+  text-decoration: none;
+  font-style: normal;
+  color: #5139f5;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Noto Sans";
+  line-height: 15px;
+  text-transform: capitalize;
+}
+.feq-page {
+  text-align: center;
+}

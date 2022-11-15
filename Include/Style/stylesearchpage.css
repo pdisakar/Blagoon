@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* comment this later */
+.site-header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+.search-content {
+  padding-top: 8rem;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+.search-bar input {
+  padding: 1rem 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 0;
+  width: 100%;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  color: #777777;
+  margin-bottom: 0.8rem;
+}
+.artical-section {
+  width: 85%;
+  display: flex;
+  margin-top: 4.8rem;
+}
+.artical-description {
+  margin-left: 3.4rem;
+}
+.author-blog-section .author-blog-travel {
+  width: fit-content;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #dff1f0;
+  border-radius: 0.3rem;
+  text-transform: capitalize;
+  color: #666666;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.author-blog-section h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  text-transform: capitalize;
+  color: #222222;
+}
+.author-blog-section .entry-meta {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  color: #777777;
+}
+.entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.entry-meta-photo img {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.entry-meta-date img,
+.entry-meta-timetoread img {
+  height: 1.1rem;
+  width: 1.2rem;
+}
+.entry-meta-photo,
+.entry-meta-name,
+.entry-meta-date {
+  margin-right: 1rem;
+}
+.entry-meta-date {
+  border-right: 1px solid #777777;
+  border-left: 1px solid #777777;
+  padding: 0px 1rem;
+}
+.entry-meta img {
+  margin-right: 0.6rem;
+}
+.author-blog-section .entry-content {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #555555;
+}
+.artical-image img {
+  width: 26.6rem;
+  height: 18.0rem;
+  border-radius: 0.8rem;
+  object-fit: cover;
+}
