@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+
+.perfect-blog {
+  background: #f2f8fe;
+  padding-top: 8rem;
+  padding-bottom: 12.4rem;
+}
+
+.perfect-blog .site-title {
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+}
+.perfect-blog .site-title h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 3.2rem;
+}
+.perfect-blog p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  text-align: center;
+  width: 42%;
+  margin: 0 auto;
+  color: #555555;
+}
+.perfect-blog h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  margin: 2.4rem auto 1.6rem auto;
+}
+
+.perfect-blog h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 2.8rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 9rem auto 3.8rem auto;
+}
+.perfect-blog .featured-icon {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.perfect-blog .featured-icon img {
+  margin: 1rem auto 1rem auto;
+  height: 3.4rem;
+  width: 16rem;
+}
+
+.meet-our-author {
+  width: 54%;
+  margin: 0 auto;
+}
+.meet-our-author .our-author {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.meet-our-author .our-author article {
+  width: 50%;
+  display: flex;
+  margin-top: 4rem;
+}
+.meet-our-author .our-author article .artical-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+.meet-our-author .our-author article .artical-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  text-transform: capitalize;
+  color: #222222;
+}
+.meet-our-author .our-author article .artical-post {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  text-transform: capitalize;
+  color: #777777;
+}
+.meet-our-author .our-author article .artical-more-to-see a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #5139f5;
+}
+.meet-our-author h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 7.6rem;
+  margin-bottom: 1.6rem;
+}
+.meet-our-author img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.quick-note {
+  width: 67.25%;
+  margin: 0 auto;
+  background-color: #f2f8fe;
+  margin-top: 10rem;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
+  text-align: center;
+  margin-bottom: 10.7rem;
+}
+.quick-note h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  text-transform: capitalize;
+  color: #222222;
+}
+.quick-note p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  text-transform: capitalize;
+  padding-top: 1.6rem;
+  padding-bottom: 3.2rem;
+  color: #555555;
+  width: 76%;
+  margin: auto;
+}
+.quick-note a {
+  margin: 0 auto;
+  display: flex;
+  text-decoration: none;
+  color: #5139f5;
+  padding: 1.2rem 2.4rem;
+  border: 2px #5139f5 solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border-radius: 0.8rem;
+  align-items: center;
+}
+.quick-note img {
+  height: 1.41rem;
+  width: 1.425rem;
+  margin-right: 0.8rem;
+}/*# sourceMappingURL=aboutus.css.map */
