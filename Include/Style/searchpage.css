@@ -46,8 +46,11 @@ html {
   margin-top: 4.8rem;
 }
 .artical-description {
-  margin-left: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
 .author-blog-section .author-blog-travel {
   width: fit-content;
   font-family: "Noto Sans";
@@ -60,8 +63,6 @@ html {
   border-radius: 0.3rem;
   text-transform: capitalize;
   color: #666666;
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
 }
 .author-blog-section h2 {
   font-family: "Noto Sans";
@@ -85,8 +86,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
 }
 .entry-meta-photo img {
   height: 1.8rem;
@@ -120,7 +119,8 @@ html {
 }
 .artical-image img {
   width: 26.6rem;
-  height: 18.0rem;
+  height: 18rem;
   border-radius: 0.8rem;
   object-fit: cover;
+  margin-right: 3.4rem;
 }

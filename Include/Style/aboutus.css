@@ -140,6 +140,8 @@ header {
 .meet-our-author img {
   height: 15rem;
   width: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .quick-note {
