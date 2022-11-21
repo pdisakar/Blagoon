@@ -1,1 +1,81 @@
-/*# sourceMappingURL=stylecatagories.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+
+.catagories-shortcut {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: #f2f8fe;
+}
+.catagories-shortcut .main-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 2.7rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  margin-bottom: 3rem;
+}
+.catagories-shortcut .shortcut-place {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.catagories-shortcut .shortcut-icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.catagories-shortcut .shortcut-icons article:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.catagories-shortcut .shortcut-icons article:hover h5 {
+  color: #ffffff;
+}
+.catagories-shortcut .shortcut-icons article {
+  width: calc(25% - 3rem);
+  margin-right: 3rem;
+  margin-top: 3rem;
+  background: #e8f3f3;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+  height: 15.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.catagories-shortcut .shortcut-icons article img {
+  height: 4rem;
+  width: 4rem;
+}
+.catagories-shortcut .shortcut-icons article h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+}/*# sourceMappingURL=catagories.css.map */
