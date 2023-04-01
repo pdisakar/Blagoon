@@ -1,52 +1,184 @@
-/** code by webdevtrick ( https://webdevtrick.com ) **/
-body {
-	background-color: #6DC4F4;
-}h1 { 
-     color:white;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+
+@media (max-width: 2560px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 1900px) {
+  html {
+    font-size: 62.5%;
+  }
+
+}
+@media (max-width: 1900px) {
+  html {
+    font-size: 50%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 40%;
+  }
+  
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 30%;
+  }
+  
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 30%;
+  }
  
 }
- 
-.container {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
+
+@media (max-width: 400px) {
+  html {
+    font-size: 28%;
+  }
+  
 }
- 
-button.accordion {
+
+@media (max-width: 380px) {
+  html {
+    font-size: 25%;
+  }
+  
+}
+@media (max-width: 330px) {
+  html {
+    font-size: 18%;
+  }
+}
+
+
+
+
+header {
   width: 100%;
-  background-color: whitesmoke;
+  height: 6.3rem;
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+.site-main {
+  width: 47%;
+  margin: 0 auto;
+}
+.head-section h1 {
+  margin-top: 8rem;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.head-section p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #666666;
+  margin-top: 1.6rem;
+  margin-bottom: 4rem;
+}
+.wrapper {
+  background-color: #ffffff;
+  margin-bottom: 1.6rem;
+}
+
+.toggle {
+  border-radius: 0.8rem;
+  width: 100%;
+  background-color: #f2f8fe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border: none;
   outline: none;
-  text-align: left;
-  padding: 15px 20px;
-  font-size: 18px;
-  color: #333;
   cursor: pointer;
-  transition: background-color 0.2s linear;
+  transition: all 0.2s;
+  padding: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  text-transform: capitalize;
+  font-family: "Noto Sans";
+  color: #222222;
 }
- 
-button.accordion:after {
-  content: '\f055';
-  font-family: "fontawesome";
-  font-size: 14px;
-  float: right;
-	
+.toggle i {
+  color: #5139f5;
 }
- 
-button.accordion.is-open:after {
-  content: '\f056';
-}
- 
-button.accordion:hover, button.accordion.is-open {
-  background-color: #ddd;
-}
- 
-.accordion-content {
-  background-color: white;
-  border-left: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  padding: 0 20px;
-  max-height: 0;
+.content {
+  color: #1e1e21;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.02rem;
+  position: relative;
+  height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-in-out;
+  transition: all 0.5s;
+}
+.wrapper i {
+  font-size: 1.6rem;
+  transition: all 0.1s;
+}
+.site-main h4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 2.9rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 8rem;
+  margin-bottom: 3.2rem;
+  color: #333333;
+}
+.contact-us a {
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+  color: #5139f5;
+  padding: 1.5rem 3rem;
+  border: 0.2rem #5139f5 solid;
+  width: fit-content;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  line-height: 1.5rem;
+  margin-bottom: 10rem;
 }
